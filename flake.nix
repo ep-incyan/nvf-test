@@ -18,6 +18,13 @@
         inherit pkgs;
         modules = [
           {
+            vim = {
+              theme = {
+                enable = true;
+                name = "catppuccin";
+                style = "frappe";
+              };
+            };
           }
         ];
       };
